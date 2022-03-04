@@ -3,12 +3,12 @@
 <!-- the only requirement is that you build a react application which loads data with an axios call
 
 Phase 0
-    setup install sequelize, pg, and express and nodemon as a dev dependency
-    add a server.js file
-    add a start:dev script which has nodemon call server.js
+    x setup install sequelize, pg, and express and nodemon as a dev dependency
+    x add a server.js file
+    x add a start:dev script which has nodemon call server.js
 
 Phase 1
-    add a backend data model and seed some data
+   x add a backend data model and seed some data
 
 Phase 2
     add express and a GET api route which will be used to on the front end to return your data
