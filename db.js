@@ -100,7 +100,7 @@ const syncDB = async () => {
     } 
 }
 
-syncDB();
+//export the modules to use in other files
 
 module.exports = {
     models: {

@@ -11,8 +11,8 @@ Phase 1
    x add a backend data model and seed some data
 
 Phase 2
-    add express and a GET api route which will be used to on the front end to return your data
-    /api/your_model_name_pluralized_goes_here (ie things, people, pets, etc.. etc.)
+   x add express and a GET api route which will be used to on the front end to return your data
+   x /api/your_model_name_pluralized_goes_here (ie things, people, pets, etc.. etc.)
 
 Phase 3
     add a GET / route to return index.html
