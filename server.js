@@ -32,7 +32,7 @@ app.get('/api/books/:id', async(req, res, next) => {
         const book = await Book.findByPk(req.params.id);
         res.send(book)
     } catch (error) {
-        next(errror)
+        next(error)
     }
 })
 
