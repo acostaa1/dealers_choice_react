@@ -26,7 +26,7 @@ class Site extends React.Component {
     render() {
         return (
           <ul>
-             {this.state.books.map(book => <li key={book.id}>{book.title}</li>)}
+             {this.state.books.map(book => <li key={book.id}>{book.title} by {book.author.name}</li>)}
           </ul>
         )
     }
