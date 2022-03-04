@@ -29,7 +29,9 @@ app.get('/api/books', async(req, res, next) => {
 
 app.get('/api/books/:id', async(req, res, next) => {
     try {
-        const book = await Book.findByPk(req.params.id);
+        const book = await Book.findByPk(req.params.id, {
+            include: [Author]
+        });
         res.send(book)
     } catch (error) {
         next(error)
