@@ -16,7 +16,7 @@ class Site extends React.Component {
         try {
         const response = await axios.get('/api/books');
         const books = response.data;
-        console.log(response.data)
+        console.log(books)
         this.setState({books})
         } 
         catch (error) {
@@ -25,9 +25,9 @@ class Site extends React.Component {
     };
     render() {
         return (
-           <div>
-               
-           </div>
+          <ul>
+             {this.state.books.map(book => <li key={book.id}>{book.title}</li>)}
+          </ul>
         )
     }
 }
