@@ -21,7 +21,7 @@ Phase 4
     setup a React application which will load the data from your backend route by making an axios call. Look up the cdn for axios and add it as script tag which loads it. You only need one class component for this.
 Phase n+ (extra credit)
     separate out your sever side code
-        you can have a separate file for your data layer (sequelize code)
+       x you can have a separate file for your data layer (sequelize code)
         you can have a separate file for your /api routes (you only have one so far)
     add ability to delete data
     add the ability to insert data -->
