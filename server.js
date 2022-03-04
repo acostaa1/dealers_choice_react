@@ -3,6 +3,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html'))) //sends my html file to the initial page request 
 //set up inital routes (can break this up later)
 
 app.get('/api/authors', async(req, res, next) => {
