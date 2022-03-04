@@ -15,7 +15,7 @@ Phase 2
    x /api/your_model_name_pluralized_goes_here (ie things, people, pets, etc.. etc.)
 
 Phase 3
-    add a GET / route to return index.html
+   x add a GET / route to return index.html
 
 Phase 4
     setup a React application which will load the data from your backend route by making an axios call. Look up the cdn for axios and add it as script tag which loads it. You only need one class component for this.

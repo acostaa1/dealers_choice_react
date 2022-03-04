@@ -4,6 +4,9 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html'))) //sends my html file to the initial page request 
+
+//because we installed webpack, should use this static route (middleware)
+app.use('/dist', express.static(path.join(__dirname,'dist')));
 //set up inital routes (can break this up later)
 
 app.get('/api/authors', async(req, res, next) => {
