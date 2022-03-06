@@ -18,7 +18,7 @@ Phase 3
    x add a GET / route to return index.html
 
 Phase 4
-    setup a React application which will load the data from your backend route by making an axios call. Look up the cdn for axios and add it as script tag which loads it. You only need one class component for this.
+   x setup a React application which will load the data from your backend xroute by making an axios call. Look up the cdn for axios and add it as xscript tag which loads it. You only need one class component for this.
 Phase n+ (extra credit)
     separate out your sever side code
        x you can have a separate file for your data layer (sequelize code)
