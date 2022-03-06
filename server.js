@@ -7,6 +7,8 @@ app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html'))) //s
 
 //because we installed webpack, should use this static route (middleware)
 app.use('/dist', express.static(path.join(__dirname,'dist')));
+// connect css to expose to clientside 
+app.use('/assets', express.static(path.join(__dirname, 'assets')))
 //set up inital routes (can break this up later)
 
 app.get('/api/authors', async(req, res, next) => {
